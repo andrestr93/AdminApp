@@ -6,6 +6,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
+import { AccountsSettingsComponent } from './accounts-settings/accounts-settings.component';
 
 
 
@@ -14,7 +15,8 @@ import { RouterModule } from '@angular/router';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountsSettingsComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +28,8 @@ import { RouterModule } from '@angular/router';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountsSettingsComponent
   ]
 })
 export class PagesModule { }
