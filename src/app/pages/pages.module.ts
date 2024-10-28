@@ -7,6 +7,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { AccountsSettingsComponent } from './accounts-settings/accounts-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -16,7 +18,9 @@ import { AccountsSettingsComponent } from './accounts-settings/accounts-settings
     Grafica1Component,
     PagesComponent,
     DashboardComponent,
-    AccountsSettingsComponent
+    AccountsSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
